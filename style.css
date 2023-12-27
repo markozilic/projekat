@@ -1,0 +1,50 @@
+body {
+	background-image: url(slike/background.jpg);
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+}
+p {
+	text-align: center;
+}
+h1 {
+	text-align: center;
+}
+table {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 200px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li{
+	float: left;
+}
+li a {
+	display: block;
+	color: gray;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+#animacija {
+	position: relative;
+	animation-name: upad;
+	animation-duration: 2s;
+}
+@keyframes upad {
+	0%   {top:-50px;}
+  	100% {top: 40px;}
+}
+div.kontakt{
+	text-align: center;
+}
